@@ -1,0 +1,26 @@
+units:
+  - target:
+    - dir: target/classes
+      file: com/spotify/docker/client/messages/swarm/NodeInfo.class
+      sourceDir: src/main/java
+      sourceFile: com/spotify/docker/client/messages/swarm/NodeInfo.java
+  - target:
+    - dir: target/classes
+      file: com/spotify/docker/client/ProgressResponseReader.class
+      sourceDir: src/main/java
+      sourceFile: com/spotify/docker/client/ProgressResponseReader.java
+  - target:
+    - dir: target/classes
+      file: com/spotify/docker/client/LogsResponseReader.class
+      sourceDir: src/main/java
+      sourceFile: com/spotify/docker/client/LogsResponseReader.java
+  - target:
+    - dir: target/classes
+      file: com/spotify/docker/client/messages/Image.class
+      sourceDir: src/main/java
+      sourceFile: com/spotify/docker/client/messages/Image.java
+  - target:
+    - dir: target/classes
+      file: com/spotify/docker/client/messages/swarm/Placement.class
+      sourceDir: src/main/java
+      sourceFile: com/spotify/docker/client/messages/swarm/Placement.java
